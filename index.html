@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>万雪茹</title>
+    <style>
+         .yijicaidan>li{
+            list-style: none;
+            background-color: pink;
+            float: top;
+            margin: 100px 0px;
+            width: 70px;
+            height: 30px;
+            display: flex;
+            justify-content: center;
+            border-radius: 20px;
+        }
+        a{
+            font-size: 20px;
+            color: black;
+            text-decoration: none;
+        }
+        .yijihezi{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .erjihezi{
+            position: absolute;
+            right: 600px;
+        }
+        .erjihezi{
+            width: 60px;
+            height: 30px;
+            border-radius: 20px;
+            justify-items: center;
+            align-items: center;
+            display: none;
+        }
+        .erjicaidan>li{
+            list-style: none;
+            background-color: rgb(241, 215, 219);
+            float: top;
+            margin: 5px 0px;
+            width: 70px;
+            height: 30px;
+            display: flex;
+            justify-content: center;
+            border-radius: 20px;
+            
+        }
+        .erjicaidan{
+            padding: 0px;
+
+        }
+        .yijicaidan>li:hover>.erjihezi{
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <div    class="yijihezi">
+        <ul class="yijicaidan">
+            <li>
+                <a href="#">娱乐</a>
+                <div    class="erjihezi">
+                    <ul class="erjicaidan">
+                        <li><a href="">棋牌</a></li>
+                        <li><a href="">游戏</a></li>
+                        <li><a href="">滑板</a></li>
+                        
+                    </ul>
+                </div>
+            </li>
+            <li>
+                <a href="#">科技</a>
+                <div    class="erjihezi">
+                    <ul class="erjicaidan">
+                        <li><a href="">数码</a></li>
+                        <li><a href="">手机</a></li>
+                        <li><a href="">电脑</a></li>
+                        
+                    </ul>
+                </div>
+            </li>
+            <li>
+                <a href="#">美食</a>
+                <div    class="erjihezi">
+                    <ul class="erjicaidan">
+                        <li><a href="">蛋糕</a></li>
+                        <li><a href="">汉堡</a></li>
+                        <li><a href="">可乐</a></li>
+                        
+                    </ul>
+                </div>
+            </li>
+        </ul>
+    </div>
+</body>
+</html>
